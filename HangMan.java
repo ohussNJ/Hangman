@@ -149,7 +149,7 @@ public class HangMan {
     }
     public boolean solvePuzzle(){
         int a=getRemainingTries();
-        System.out.println("Would you like to solve the puzzle?(Yes or No)");
+        System.out.println("Would you like to solve the puzzle?(Yes/No)");
         String answer=StdIn.readString();
         answer=answer.toLowerCase();
         boolean x=false;
